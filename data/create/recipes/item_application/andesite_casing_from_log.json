@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "CSC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "tag": "forge:stripped_logs"
+    }
+  },
+  "result": {
+    "item": "create:andesite_casing",
+    "count": 2
+  }
+}

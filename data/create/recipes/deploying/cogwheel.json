@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "transitionalItem": {
+    "item": "minecraft:oak_button"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_button"
+        },
+        {
+          "tag": "minecraft:wooden_buttons"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_button"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_button"
+        }
+      ],
+      "processingTime": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "create:cogwheel",
+      "count": 12,
+      "chance": 32.0
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "create:large_cogwheel"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "loops": 4
+}
