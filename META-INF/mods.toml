@@ -1,0 +1,17 @@
+modLoader="lowcodefml"
+loaderVersion="40"
+license="Unlicense"
+[[mods]]
+modId="create_legacy_recipes"
+version="1.0.0"
+displayName="Create Legacy Recipes"
+description='''
+Revert some recipe changes in Create 0.5
+'''
+
+[[dependencies.create_legacy_recipes]]
+    modId="create"
+    mandatory=true
+    versionRange="[v0.5.0,)"
+    ordering="AFTER"
+    side="BOTH"
